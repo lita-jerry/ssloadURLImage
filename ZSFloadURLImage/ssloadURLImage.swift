@@ -192,6 +192,7 @@ extension UIImageView{
                 if(file.fileExistsAtPath(imagePath)){
                     //将图片显示在imageview上面，方法结束
                     self.setImageToView(imagePath)
+                    lock.unlock()
                     return
                 }
             }
