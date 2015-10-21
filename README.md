@@ -1,4 +1,4 @@
-ssloadURLImage使用文档
+**ssloadURLImage使用文档
 
 概括：为了解决加载网络图片时的繁琐操作，封装了路径操作、加载操作、下载操作、缓存到本地操作，目前只针对UIImageView做的image加载，如果想针对UIButton或者其他加载图像的地方做扩展，可根据代码内部的注释做修改
 
